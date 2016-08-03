@@ -1,0 +1,790 @@
+body, html{
+            font-family: 'Lato';
+            color: #2e3c54;
+            overflow-x: hidden;
+            font-weight: 100;
+        }
+
+        .fa-btn {
+            margin-right: 6px;
+        }
+        
+#page_header{
+    height:300px;
+    width:100%;
+    margin: 0px;
+}
+
+#page_header .col-md-12 {
+    padding:0px; 
+}
+
+#page_header img{
+    height:300px;
+    width:100%;
+    object-fit: cover;
+}
+
+#page_con h4{
+    line-height: 32px;
+    text-align: justify;
+}
+
+
+
+cc_banner-wrapper {
+    background-color: #2e3c54;
+}
+
+#first {
+	display:none;
+}
+
+.preload {
+	position: relative;
+    height: 100vh;
+    width:100%;
+    z-index: 999;
+}
+
+.preinside{
+margin:0;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-right: -50%;
+	transform:translate(-50%, -50%);
+
+}
+
+        #left{
+
+padding:0px;
+}
+
+        #right{
+
+padding:0px;
+}
+
+label{
+    font-weight:300;
+    margin-top: 5px;
+}
+
+.form-control:focus{
+    outline:none !important;
+        box-shadow: none;
+        border-color: #2e3c54;
+}
+
+
+.form-control {
+    border-radius: 1px !important;
+    outline:none !important;}
+
+#center{
+    position:relative;
+    padding:0px;
+
+}
+
+#map{
+    width:100%;
+    height: 400px;
+    margin: 0px;
+}
+
+
+h2{
+    font-weight:100;
+}
+
+h3{
+    font-weight:100;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 100;}
+
+    p{font-weight: 300;}
+
+a {
+    color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+    color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+
+/*#center img{
+
+    -webkit-filter: grayscale(90%);
+filter: grayscale(100%);
+
+transition: 0.1s filter linear;
+-webkit-transition: 0.1s -webkit-filter linear;
+-moz-transition: 0.1s -moz-filter linear;
+-ms-transition: 0.1s -ms-filter linear;
+-o-transition: 0.1s -o-filter linear;
+}*/
+
+#right img{    -webkit-filter: grayscale(90%);
+filter: grayscale(100%);
+
+transition: 0.1s filter linear;
+-webkit-transition: 0.1s -webkit-filter linear;
+-moz-transition: 0.1s -moz-filter linear;
+-ms-transition: 0.1s -ms-filter linear;
+-o-transition: 0.1s -o-filter linear;}
+
+#left img{    -webkit-filter: grayscale(90%);
+filter: grayscale(100%);
+
+transition: 0.1s filter linear;
+-webkit-transition: 0.1s -webkit-filter linear;
+-moz-transition: 0.1s -moz-filter linear;
+-ms-transition: 0.1s -ms-filter linear;
+-o-transition: 0.1s -o-filter linear;
+}
+
+#center img:hover{
+     -webkit-filter: grayscale(0%);
+filter: grayscale(0%);
+}
+
+.navbar-default {
+    background-color: #2e3c54 !important;
+    height:65px;
+    color:white;}
+
+    .navbar-default {
+   height:65px;}
+
+
+
+.navbar-nav>li:hover{
+background-color: #38a3f4;
+}
+
+.navbar-nav>li:active{
+background-color: #38a3f4;
+}
+
+.navbar-nav>li>a {
+    color: white !important;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+
+
+
+
+
+#left img:hover{
+    -webkit-filter: grayscale(0%);
+filter: grayscale(0%);
+}
+
+#right img:hover{
+    -webkit-filter: grayscale(0%);
+filter: grayscale(0%);
+}
+
+#logo{
+    position:absolute;
+    top:36%;
+      width: 100%;
+    text-align: center;
+   
+}
+
+#logo img {
+     -webkit-filter: grayscale(0%) !important; /* Chrome, Safari, Opera */
+    filter: grayscale(0%) !important;
+
+}
+
+.fa-chevron-down {
+    display: block;
+    
+    font-size: 50px;
+    padding-top: 18px;
+} 
+
+.chev_box{
+    background-color: #2e3c54;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid #2e3c54;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.chev_box:hover{background-color: #38a3f4;
+color:white;
+}
+
+.navbar-default{
+background-color: white;
+margin-bottom: 0px;
+}
+
+.hero{
+    background-image: url("/images/ParsonsGreenManagement.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    min-height:600px;
+    max-height: 700px;
+    position: relative;
+}
+
+#hero_con{
+    position: relative;
+    height: 600px;
+
+}
+
+
+
+.hero_text{
+    position: absolute;
+    top:50%;
+    color:white;
+    font-weight: 100;
+    background-color: rgba(46, 60, 84, 0.7);
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #38a3f4;
+}
+
+.hero_text h2{
+  
+    font-weight: 100;
+}
+
+.hero_text h1{
+  
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.footer{
+    background-color: #2e3c54;
+}
+
+#sub-footer{
+background-color:white;
+text-align: center;
+
+}
+
+#logo_head{
+
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(-26deg);
+    transform-origin: 65% 55%;
+}
+
+#image-options{
+    height: 100%;
+    margin-bottom: 150px;
+}
+
+.navbar-toggle{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.navbar-header {
+    height:65px;
+}
+
+#image-options .panel-body{
+  padding:0px;
+}
+
+#cta_heading{
+background-color: #38a3f4;
+color:white;
+transition: all 0.2s ease;
+}
+
+#cta_heading:hover{
+margin-top:-10px;
+height: 48px;
+padding:15px;
+}
+
+#image-panels{
+    padding:0px;
+
+}
+
+#con_soc {
+    font-size: 16px;
+    margin-right: 12px;
+    cursor: pointer;}
+
+#image-panel1{
+    padding:0px;
+    background-image: url(/images/ParsonsGreenDev.jpg);
+    height:200px;
+    background-size: cover;
+}
+
+#image-panel2{
+    padding:0px;
+    background-image: url(/images/ParsonsGreenManagement.jpg);
+    height:200px;
+    background-size: cover;
+}
+
+#image-panel3{
+    padding:0px;
+    background-image: url(/images/WebDesign.jpg);
+    height:200px;
+    background-size: cover;
+}
+
+#image-panel4{
+    padding:0px;
+    background-image: url(/images/ParsonsGreenPrint.jpg);
+    height:200px;
+    background-size: cover;
+}
+
+#image_overlay{
+box-sizing: border-box;
+padding-top:90px;
+    background-color: rgba(46, 60, 84, 0.7);
+    height: 100%;
+    width:100%;
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#image_overlay:hover{
+box-sizing: border-box;
+padding-top:90px;
+    background-color: rgba(46, 60, 84, 0.9);
+    height: 100%;
+    width:100%;
+}
+
+#image_overlay h3{
+color:white;
+text-align: center;
+margin: 0px;
+font-weight: 100;
+
+vertical-align: middle;
+}
+
+#image-panels .panel-default{
+    border:0px;
+    margin:0px;
+}
+
+#text_row{
+    height: 250px;
+    text-align: center;
+    height:100%;
+    
+    
+    padding-bottom: 120px;
+}
+
+#text_row_text{
+padding-top: 90px;
+    font-weight: 100;
+    font-size: 70px;
+    text-align: center;}
+
+    #our_work{
+
+        background-color: #38a3f4;
+        margin-bottom: 40px;
+    }
+#our_work_head{
+    font-weight: 100;
+    color: white;
+    font-size: 52px;
+    padding-top: 50px;}
+
+      #our_work_body{
+          margin-bottom: 50px;
+        background-color: #38a3f4;
+    }
+
+   #our_clients{
+       margin-bottom: 40px;
+   }
+
+    #our_clients_head{
+    font-weight: 100;
+    color: #2e3c54;
+    font-size: 35px;
+    padding-top: 30px;}
+
+    .fixed_bottom{
+        position: fixed;
+        bottom: 0;
+        background-color:rgba(255, 255, 255, 0.95);
+        border-top: 1px solid  #2e3c54;
+        width:100%;
+        z-index: 1;
+        box-sizing: border-box;
+        padding: 5px;
+        z-index: 9999;
+    }
+
+.fixed_bottom h4{display: inline-block;}
+
+.fixed_bottom .btn{float:right;}
+
+    #client_whole_panel{
+            max-width: 400px;
+    margin: 40px auto;
+        border: 1px solid #2e3c54;
+        border-radius: 2px;
+
+    }
+
+#client_panel{
+        padding:0px;
+        overflow: hidden;
+
+    }
+
+    #client_image{
+        width:100%;
+        object-fit: cover;
+        max-height:300px;
+          -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+
+    }
+
+     #client_image:hover{
+        -moz-transform: rotate(2deg) scale(1.1);
+  -webkit-transform: rotate(2deg) scale(1.1);
+  transform: rotate(2deg) scale(1.1);
+ 
+
+    }
+
+    #client_footer{
+        background-color: white;
+    }
+
+        #client_heading{
+        background-color: #2e3c54;
+        color:white;
+        border-bottom: 1px solid #2e3c54;
+        border-top-right-radius: 1px;
+        border-top-left-radius: 1px;
+    }
+
+#clientpage_main{margin-top: 60px;
+margin-bottom: 80px;}
+
+    #clientpage_image{
+        width:100%;
+        height:auto;
+        object-fit: cover;
+        max-height:500px;
+        
+    }
+
+    #panel1{
+        background-image: url(/images/ParsonsGreenDev.jpg);
+    }
+
+#footer1{
+
+    color:white;
+    margin-top:50px;
+    margin-bottom: 40px;
+    
+}
+
+#footer1 h4{
+    color: #38a3f4;
+}
+
+#footer1 p{
+    font-weight: 100;
+}
+
+#footer1 .fa{
+    color: #38a3f4;
+}
+
+#footer1 .fa-facebook{
+    color: white;
+    margin-right:15px;
+    font-size:20px;
+}
+
+#footer1 .fa-twitter{
+    color: white;
+    font-size:20px;
+}
+
+#footer1 .fa-facebook:hover{
+    color: #38a3f4;
+    cursor: pointer;
+}
+
+#footer1 .fa-twitter:hover{
+    color: #38a3f4;
+    cursor: pointer;
+}
+
+#our_clients_head .btn{
+    cursor: pointer;
+}
+
+.btn-default{
+    border-color: #2e3c54;
+        -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+      padding: 10px 25px;
+}
+
+.btn-default:hover{
+    border-color: #2e3c54;
+color:white;
+    background-color: #2e3c54;
+}
+
+.navbar-nav>li:focus {
+    background-color:#38a3f4;
+    border:none;
+    outline:none;}
+
+    .navbar-nav>.open>a:focus{
+        background-color: transparent !important;
+    }
+
+    #con_form{
+        margin-bottom: 60px;
+    }
+
+     #con_con{
+        margin-top: 5px;
+    }
+
+#image-options{
+    cursor: pointer;
+}
+
+#page_con{
+
+    min-height: 350px;
+}
+
+#page_head{margin-bottom: 50px;
+}
+
+
+
+.page_icons_background{
+background-color: #f4f4f4;
+border-radius: 50%;
+margin: 0 auto;
+height: 76px;
+width:76px;
+ text-align: center;
+    margin-bottom: 8px;
+
+}
+
+#page_icons i{
+    font-size: 45px;
+   margin-top:15px;
+
+}
+
+#page_icons p{
+   text-align: center;
+}
+
+/*==========  Mobile First Method CSS  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+               .chev_box {
+    height: 65px;
+    width: 65px;}
+
+    .fa-chevron-down {
+    font-size: 35px;
+    padding-top: 14px;
+    color:white;}
+
+    #iphone{
+        display: none;
+    }
+.hero_text {
+    position: absolute;
+    top: 24%;}
+
+    #logo img{
+
+        width:50%;
+    }
+
+    #hero_con {
+
+    padding: 0px;
+    }
+
+    #con_form{
+        margin-top:20px;
+    }
+    
+
+#image-options {
+    height: 100%;
+    margin-bottom: 0px;}
+
+    }
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        #iphone{
+        display: none;
+    }
+
+    .hero_text {
+    position: absolute;
+    top: 40%;}
+
+    #logo img{
+
+        width:30%;
+    }
+ #con_form{
+        margin-top:20px;
+    }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+           .fixed_bottom{
+        display: none;
+    }
+
+#image-options {
+    height: 100%;
+    margin-bottom: 150px;}
+
+#iphone{
+        display: none;
+    }
+
+.hero_text {
+    position: absolute;
+    top: 50%;}
+
+    #logo img{
+
+        width:26%;
+    }
+     #con_form{
+        margin-top:0px;
+    }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+#con_form{
+        margin-top:0px;
+    }
+
+    .fixed_bottom{
+        display: none;
+    }
+
+#iphone{
+        display: block;
+        margin-top:20px;
+    }
+
+.hero_text {
+    position: absolute;
+    top: 50%;}
+
+    #logo img{
+
+        width:26%;
+    }
+
+    #image-options {
+    height: 100%;
+    margin-bottom: 150px;}
+
+}
+    
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+/*#image-options {
+    margin-bottom: 150px;}
+    #text_row {
+    height: 250px;
+    margin-bottom: 150px;}*/
+#image-options {
+    height: 100%;
+    margin-bottom: 150px;}
+
+
+    #iphone{height:550px;
+    width:auto;
+        margin-bottom: -150px;
+    margin-top: 50px;
+    }
+
+    #our_clients_head{
+        margin-top: 140px;
+        line-height: 45px;
+    }
+
+    #iphone{
+        display: block;
+        margin-top:0px;
+    }
+
+     .hero_text {
+    position: absolute;
+    top: 50%;}
+
+    #logo img{
+
+        width:18%;
+    }
+
+    }
+
+
