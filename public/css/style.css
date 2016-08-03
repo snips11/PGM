@@ -30,7 +30,9 @@ body, html{
     text-align: justify;
 }
 
-
+.page_icons_background .fa{
+margin-top:18px;
+}
 
 cc_banner-wrapper {
     background-color: #2e3c54;
@@ -239,6 +241,11 @@ background-color: white;
 margin-bottom: 0px;
 }
 
+#con_head{
+
+margin: 10px 0px;
+}
+
 .hero{
     background-image: url("/images/ParsonsGreenManagement.jpg");
     background-repeat: no-repeat;
@@ -255,7 +262,10 @@ margin-bottom: 0px;
 
 }
 
+#text_row_text2{
 
+    display:none;
+}
 
 .hero_text{
     position: absolute;

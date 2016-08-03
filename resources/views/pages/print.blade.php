@@ -1,5 +1,6 @@
 @extends('layouts.content')
-
+@section('title', 'Print 	&amp; Design Specialists')
+@section('description', 'Print 	&amp; Design Specialists')
 @section('content')
 <div class="row" id="page_header">
         <div class="col-md-12 ">
@@ -15,7 +16,7 @@
     <div class="row" id="page_head">
         <div class="col-xs-12 col-md-8" >
             <div class="col-xs-12" id="page_con">
-                <h4>We have an extensive network or trade printers allowing us to source anything physical needed for a successful marketing campign. The trusted trade contracts we have in place with the biggest printers all over Europe allow us to buy in print at the lowest prices, sourcing everything from paper based marketing materials to large format and promotional items.</br></br>Our knowledge doesn't stop with sourcing the print, we are experts in design, layout and branding. Working with your plans to implement and bring them to life!</h4>
+                <h4>We have an extensive network of trade printers allowing us to source anything physical needed for a successful marketing campign. The trusted trade contracts we have in place with the biggest printers all over Europe allow us to buy in print at the lowest prices, sourcing everything from paper based marketing materials to large format and promotional items.</br></br>Our knowledge doesn't stop with sourcing the print, we are experts in design, layout and branding. Working with your plans to implement and bring them to life!</h4>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-3" id="page_icons">
                 <div class="page_icons_background">

@@ -29,7 +29,10 @@ Route::resource('print', 'PrintController@index');
 
 Route::resource('web', 'WebController@index');
 
-Route::resource('project', 'ProjectController@index');
+
+Route::get('management', function () {
+    return view('pages.project_management');
+});
 
 Route::resource('print', 'PrintController@index');
 

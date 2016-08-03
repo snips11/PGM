@@ -39,7 +39,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="{{ ('js/map.js') }}"></script>
     <script src="{{ ('js/dropdown.js') }}"></script>
-    {{--  --}}
+   
 
 <!--<script>
 var fixmeTop = $('#nav').offset().top;
@@ -66,7 +66,7 @@ $(window).scroll(function() {
 		});
 	});
 </script> 
-
+ <!--<script> $('#text_row_text2').show("scale",{}, 1000);</script>-->
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfuqu9gxT60lG3BRwA4D_GkUi6JGgrrQE&callback=initMap">
     </script>

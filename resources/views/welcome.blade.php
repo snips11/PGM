@@ -89,7 +89,7 @@
     <div class="row" id="text_row">
         <div class="col-md-6 col-md-offset-3 ">
             <h2 id="text_row_text">We are full stack media<span style="color:#2e3c54">.</span></h2></br>
-            <h3 style="color: #2e3c54;">We can develop your website, manage your print, create a custom application or design your brochure...</h3></br>
+            <h3 style="color: #2e3c54;" id="text_row_text2">We can develop your website, manage your print, create a custom application or design your brochure...</h3></br>
             <!--<h4>Business and marketing agencies love workign with us.</h4>-->
 
         </div>
