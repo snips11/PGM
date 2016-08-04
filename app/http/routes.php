@@ -34,8 +34,23 @@ Route::get('management', function () {
     return view('pages.project_management');
 });
 
+Route::get('app-development', function () {
+    return view('pages.app_development');
+});
+
+Route::get('web', function () {
+    return view('pages.web_development');
+});
+
+Route::get('hosting', function () {
+    return view('pages.hosting');
+});
+
+Route::get('digital-marketing', function () {
+    return view('pages.digital_marketing');
+});
+
 Route::resource('print', 'PrintController@index');
 
-Route::resource('web', 'WebController@index');
 
 Route::resource('contact', 'ContactController');
